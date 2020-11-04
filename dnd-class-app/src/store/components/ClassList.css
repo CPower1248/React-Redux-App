@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+    /* border: 1px solid grey; */
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+.classlist-container {
+    display: flex;
+    flex-flow: column;
+}
+
+.class-container {
+    border: 2px solid black;
+    background-color: lightgrey;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.class-container div {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: floralwhite;
+    width: 23%;
+    margin: 1%;
+}
