@@ -6,11 +6,11 @@ import Pokemon from "./Pokemon"
 
 const PokemonList = ({ error, isFetching, pokemon, getPoke }) => {
     if (isFetching) {
-        return <h3>Gotta catch 'em all!</h3>
+        return <h2>Gotta catch 'em all!</h2>
     }    
     
     if (error) {
-        return <h3>The Pokemon escaped from the pokeball... {error}</h3>
+        return <h2>The Pokemon escaped from the pokeball... {error}</h2>
     }
 
     const handleFetch = () => {

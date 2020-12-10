@@ -28,11 +28,17 @@ button {
   color: black;
   width: 225px;
   height: 40px;
-  border: 5px solid black;
+  border: 4px solid black;
   border-radius: 15px;
   font-size: 14px;
   font-weight: bold;
   margin-top: 1%;
+}
+
+button:hover {
+  background-color: black;
+  color: lightgrey;
+  border: 4px solid lightgrey;
 }
 
 .pokemon-container {
@@ -43,6 +49,12 @@ button {
   border-bottom: 4px solid goldenrod;
   background-color: midnightblue;
   margin-top: 2%;
+}
+
+h2 {
+  border-bottom: 4px solid goldenrod;
+  color: black;
+  padding: 2%;
 }
 
 .pokemon {
