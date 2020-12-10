@@ -1,14 +1,14 @@
 import './App.css';
+import pokemon_logo from "./images/pokemon_logo.png"
 
 import PokemonList from "./components/PokemonList"
 
 function App() {
   return (
     <div className="App">
-      <div className="title-container">
-        <span>-React Redux App-</span>
-        <h1>Pokemon API</h1>
-      </div>
+      <header className="header">
+        <img src={pokemon_logo} alt="Pokemon Logo" />
+      </header>
       <PokemonList />
     </div>
   );

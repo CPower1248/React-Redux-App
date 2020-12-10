@@ -5,7 +5,6 @@ import { getPoke } from "../actions"
 import Pokemon from "./Pokemon"
 
 const PokemonList = ({ error, isFetching, pokemon, getPoke }) => {
-    console.log("THIS IS POKEMON: ", pokemon)
     if (isFetching) {
         return <h3>Gotta catch 'em all!</h3>
     }    

@@ -14,4 +14,7 @@ export const getPoke = () => dispatch => {
         .catch(err => {
             dispatch({type: FETCH_POKE_FAIL, payload: err.message})
         })
+
+    // // getPokeDetails()
+    // axios.get({`https://pokeapi.co/api/v2/pokemon/${id}?limit=151`})
 }
